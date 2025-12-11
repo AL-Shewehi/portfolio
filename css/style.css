@@ -10,6 +10,9 @@ body {
 a {
     text-decoration: none;
 }
+button {
+    cursor: pointer;
+}
 .container {
     padding-left: 50px;
     padding-right: 50px;
@@ -32,7 +35,7 @@ a {
     }
 }
 button:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 button:hover i {
     animation: moving-arrow .6s linear infinite;
@@ -203,7 +206,7 @@ header a:hover {
     transition: .5s;
 }
 .case-studies .container .box:hover {
-    transform: scale(1.04);
+    transform: scale(1.02);
 }
 @media(max-width: 767px) {
     .case-studies .container .box {
